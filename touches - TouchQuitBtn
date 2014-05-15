@@ -1,0 +1,12 @@
+using UnityEngine;
+using System.Collections;
+
+public class TouchQuitbtn : TouchBtnlogic 
+{
+	void OnTouchBegan()
+	{
+		Application.LoadLevel ("_start");
+	}
+
+
+}
